@@ -5,9 +5,66 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_pigeon</sprite>
+    <sprite>sprites\spr_obstacle</sprite>
+    <sprite>sprites\spr_arme</sprite>
+    <sprite>sprites\sprite_obj</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="SCRIPT IA">
+      <script>scripts\IA_repos.gml</script>
+      <script>scripts\IA_attaque.gml</script>
+      <script>scripts\IA_deplacement.gml</script>
+      <script>scripts\IA_perception1.gml</script>
+      <script>scripts\IA_perception.gml</script>
+      <script>scripts\IA_perceptionAllie.gml</script>
+      <script>scripts\IA_perception2.gml</script>
+      <script>scripts\IA_Formation.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_debuggage</object>
+    <object>objects\obj_globVar</object>
+    <objects name="AGENTS">
+      <objects name="AGENTS SIMPLES">
+        <objects name="Camp 1">
+          <object>objects\obj_agent_C1</object>
+        </objects>
+        <objects name="Camp 2">
+          <object>objects\obj_agent_C2</object>
+        </objects>
+      </objects>
+      <objects name="AGENT SUPERIEUR">
+        <objects name="Camp 1">
+          <object>objects\obj_meta_agent_C1</object>
+          <object>objects\obj_agent_officier0_C1</object>
+          <object>objects\obj_agent_officier1_C1</object>
+        </objects>
+        <objects name="Camp 2">
+          <object>objects\obj_meta_agent_C2</object>
+          <object>objects\obj_agent_officier0_C2</object>
+          <object>objects\obj_agent_officier1_C2</object>
+        </objects>
+      </objects>
+      <objects name="AGENT TEST">
+        <object>objects\obj_agent</object>
+        <object>objects\obj_meta_agent</object>
+        <object>objects\obj_meta_agent_1</object>
+        <object>objects\obj_meta_agent_0</object>
+      </objects>
+      <object>objects\obj_formation</object>
+      <object>objects\obj_souris</object>
+      <object>objects\obj_joueur</object>
+    </objects>
+    <object>objects\obj_arme</object>
+    <object>objects\obj_obstacle</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
