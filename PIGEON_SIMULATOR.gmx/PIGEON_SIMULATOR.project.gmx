@@ -18,10 +18,8 @@
       <script>scripts\IA_repos.gml</script>
       <script>scripts\IA_attaque.gml</script>
       <script>scripts\IA_deplacement.gml</script>
-      <script>scripts\IA_perception1.gml</script>
-      <script>scripts\IA_perception.gml</script>
       <script>scripts\IA_perceptionAllie.gml</script>
-      <script>scripts\IA_perception2.gml</script>
+      <script>scripts\IA_perception.gml</script>
       <script>scripts\IA_Formation.gml</script>
     </scripts>
   </scripts>

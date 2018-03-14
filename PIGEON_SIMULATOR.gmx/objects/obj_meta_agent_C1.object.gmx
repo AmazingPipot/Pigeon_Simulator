@@ -113,7 +113,7 @@ I = 0;
 II = 0;
 
 IA_perceptionAllie();
-IA_perception2();
+IA_perception();
 
 instance_activate_all();
 
